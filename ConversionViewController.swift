@@ -22,12 +22,12 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         let hour = calendar.component(.hour, from: date)
         print("hours = \(hour)")
         switch hour {
-        case 8 ... 20:
+        case 8 ... 19:
             view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-            print("Its between 8am and 8pm")
+            print("Its between 8am and 7pm")
         default:
-            view.backgroundColor = UIColor.lightGray
-            print("Its between 9pm and 7am")
+            view.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+            print("Its between 8pm and 7am")
         }
     }
     
