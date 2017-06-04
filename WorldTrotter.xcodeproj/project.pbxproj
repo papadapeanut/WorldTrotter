@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC41788F1EDCE7A5000FFF0C /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41788E1EDCE7A5000FFF0C /* ConversionViewController.swift */; };
+		EC8D36701EE2F7F700DA0918 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8D366F1EE2F7F700DA0918 /* MapKit.framework */; };
+		EC9BA0271EE31B3900F54C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9BA0261EE31B3900F54C5A /* Assets.xcassets */; };
+		EC9BA0291EE3265D00F54C5A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9BA0281EE3265D00F54C5A /* MapViewController.swift */; };
 		ECBED8681EDA8C9E0039AEA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED8671EDA8C9E0039AEA0 /* AppDelegate.swift */; };
-		ECBED86A1EDA8C9E0039AEA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED8691EDA8C9E0039AEA0 /* ViewController.swift */; };
 		ECBED86D1EDA8C9E0039AEA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBED86B1EDA8C9E0039AEA0 /* Main.storyboard */; };
-		ECBED86F1EDA8C9E0039AEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBED86E1EDA8C9E0039AEA0 /* Assets.xcassets */; };
 		ECBED8721EDA8C9E0039AEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBED8701EDA8C9E0039AEA0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC41788E1EDCE7A5000FFF0C /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionViewController.swift; path = ../ConversionViewController.swift; sourceTree = "<group>"; };
+		EC8D366F1EE2F7F700DA0918 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EC9BA0261EE31B3900F54C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9BA0281EE3265D00F54C5A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ECBED8641EDA8C9E0039AEA0 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBED8671EDA8C9E0039AEA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECBED8691EDA8C9E0039AEA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECBED86C1EDA8C9E0039AEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECBED86E1EDA8C9E0039AEA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECBED8711EDA8C9E0039AEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECBED8731EDA8C9E0039AEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -29,17 +33,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8D36701EE2F7F700DA0918 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC8D366E1EE2F7F700DA0918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8D366F1EE2F7F700DA0918 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECBED85B1EDA8C9E0039AEA0 = {
 			isa = PBXGroup;
 			children = (
 				ECBED8661EDA8C9E0039AEA0 /* WorldTrotter */,
 				ECBED8651EDA8C9E0039AEA0 /* Products */,
+				EC8D366E1EE2F7F700DA0918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +68,13 @@
 		ECBED8661EDA8C9E0039AEA0 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				EC9BA0261EE31B3900F54C5A /* Assets.xcassets */,
 				ECBED8671EDA8C9E0039AEA0 /* AppDelegate.swift */,
-				ECBED8691EDA8C9E0039AEA0 /* ViewController.swift */,
 				ECBED86B1EDA8C9E0039AEA0 /* Main.storyboard */,
-				ECBED86E1EDA8C9E0039AEA0 /* Assets.xcassets */,
 				ECBED8701EDA8C9E0039AEA0 /* LaunchScreen.storyboard */,
 				ECBED8731EDA8C9E0039AEA0 /* Info.plist */,
+				EC41788E1EDCE7A5000FFF0C /* ConversionViewController.swift */,
+				EC9BA0281EE3265D00F54C5A /* MapViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -125,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECBED8721EDA8C9E0039AEA0 /* LaunchScreen.storyboard in Resources */,
-				ECBED86F1EDA8C9E0039AEA0 /* Assets.xcassets in Resources */,
+				EC9BA0271EE31B3900F54C5A /* Assets.xcassets in Resources */,
 				ECBED86D1EDA8C9E0039AEA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECBED86A1EDA8C9E0039AEA0 /* ViewController.swift in Sources */,
+				EC41788F1EDCE7A5000FFF0C /* ConversionViewController.swift in Sources */,
+				EC9BA0291EE3265D00F54C5A /* MapViewController.swift in Sources */,
 				ECBED8681EDA8C9E0039AEA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +320,7 @@
 				ECBED8781EDA8C9E0039AEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
