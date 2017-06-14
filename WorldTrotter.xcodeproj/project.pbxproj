@@ -14,6 +14,8 @@
 		ECBED8681EDA8C9E0039AEA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED8671EDA8C9E0039AEA0 /* AppDelegate.swift */; };
 		ECBED86D1EDA8C9E0039AEA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBED86B1EDA8C9E0039AEA0 /* Main.storyboard */; };
 		ECBED8721EDA8C9E0039AEA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBED8701EDA8C9E0039AEA0 /* LaunchScreen.storyboard */; };
+		ECDEDE381EE479AB00500453 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDEDE371EE479AB00500453 /* BookViewController.swift */; };
+		ECDEDE3A1EE47B4600500453 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDEDE391EE47B4600500453 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		ECBED86C1EDA8C9E0039AEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECBED8711EDA8C9E0039AEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECBED8731EDA8C9E0039AEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDEDE371EE479AB00500453 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		ECDEDE391EE47B4600500453 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDEDE3A1EE47B4600500453 /* WebKit.framework in Frameworks */,
 				EC8D36701EE2F7F700DA0918 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +48,7 @@
 		EC8D366E1EE2F7F700DA0918 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECDEDE391EE47B4600500453 /* WebKit.framework */,
 				EC8D366F1EE2F7F700DA0918 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -75,6 +81,7 @@
 				ECBED8731EDA8C9E0039AEA0 /* Info.plist */,
 				EC41788E1EDCE7A5000FFF0C /* ConversionViewController.swift */,
 				EC9BA0281EE3265D00F54C5A /* MapViewController.swift */,
+				ECDEDE371EE479AB00500453 /* BookViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -153,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC41788F1EDCE7A5000FFF0C /* ConversionViewController.swift in Sources */,
+				ECDEDE381EE479AB00500453 /* BookViewController.swift in Sources */,
 				EC9BA0291EE3265D00F54C5A /* MapViewController.swift in Sources */,
 				ECBED8681EDA8C9E0039AEA0 /* AppDelegate.swift in Sources */,
 			);

@@ -10,6 +10,8 @@ import UIKit
 
 class ConversionViewController: UIViewController, UITextFieldDelegate {
     
+    var btn_findme: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("ConversionViewController loaded its view.")

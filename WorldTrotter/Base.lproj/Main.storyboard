@@ -92,6 +92,24 @@
             </objects>
             <point key="canvasLocation" x="151" y="142"/>
         </scene>
+        <!--Book-->
+        <scene sceneID="GvI-UL-z43">
+            <objects>
+                <viewController storyboardIdentifier="webView" id="NzH-e7-7X6" customClass="BookViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <webView key="view" contentMode="scaleToFill" id="Jf6-cg-Z6S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </webView>
+                    <tabBarItem key="tabBarItem" title="Book" id="lco-4v-rfb" userLabel="BookTabBar"/>
+                    <connections>
+                        <outlet property="webView" destination="Jf6-cg-Z6S" id="3k6-1x-gOb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="my8-vd-TcT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="144" y="813"/>
+        </scene>
         <!--Map-->
         <scene sceneID="abD-Vs-Key">
             <objects>
@@ -115,6 +133,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="95U-cq-6gr"/>
                         <segue destination="zHb-X0-TBR" kind="relationship" relationship="viewControllers" id="rhu-Ra-5Yq"/>
+                        <segue destination="NzH-e7-7X6" kind="relationship" relationship="viewControllers" id="XkX-3W-MCK"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ats-6M-Lbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
